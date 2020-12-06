@@ -19,5 +19,11 @@ services:
     volumes:
       - db-store:/var/lib/mysql
 
+  py:
+    build: ./infra/python
+    volumes:
+      - ./backend/python:/var/www/html
+    tty: true
+
 volumes:
   db-store:
