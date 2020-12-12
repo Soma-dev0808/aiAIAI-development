@@ -1,0 +1,46 @@
+.custom-btn {
+    display: inline-block;
+    padding: 0.6rem 1rem;
+    border: 2px solid rgb(51, 165, 95);
+    border-radius: 2rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(51, 165, 95);
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 255px;
+    text-align: center;
+}
+.custom-btn:hover {
+    text-decoration: none;
+    color: white;
+}
+.custom-btn-angle {
+    margin-right: 5px;
+}
+.how-to-buy-btns {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.shopping-btn {
+    width: 40%;
+    text-align: center;
+}
+.shopping-btn:hover {
+    color: white;
+    text-decoration: none;
+}
+@media (max-width: 600px) {
+    .custom-btn {
+        width: 80%;
+        margin: 1rem auto;
+    }
+    .how-to-buy-btns {
+        display: block;
+    }
+}
