@@ -1,0 +1,71 @@
+#upload-image .upload-image-container,
+.store-selection,
+.image-section,
+.upload-section-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#upload-image .store-selection,
+.upload-label-child {
+    width: 20%;
+}
+
+#upload-image .upload-selection,
+.image-section {
+    width: 100%;
+}
+
+#upload-image .upload-section-component {
+    width: 100%;
+}
+
+#upload-image .upload-label-child {
+    cursor: pointer;
+}
+
+#upload-image .seletcion-title {
+    font-size: 16px;
+}
+
+#upload-image .upload-image-button {
+    color: #fff;
+    background-color: #6c757d;
+    text-align: center;
+    padding: 5px 15px;
+    width: 100%;
+    border-radius: 0.25rem;
+}
+
+#upload-image .image-input {
+    display: none;
+}
+
+#upload-image .base-image-input {
+    max-width: 700px;
+}
+
+@media (max-width: 800px) {
+    #upload-image .base-image-input {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 600px) {
+    #upload-image .base-image-input {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 400px) {
+    #upload-image .base-image-input {
+        max-width: 250px;
+    }
+}
+
+#upload-image .save-button {
+    color: #fff;
+    background-color: #33a55f;
+    border-color: #33a55f;
+}

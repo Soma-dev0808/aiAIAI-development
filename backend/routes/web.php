@@ -120,6 +120,10 @@ Route::group(['prefix' => 'user'], function () {
         return view('auth.account');
     });
 
+    Route::get('/register-product', 'App\Http\Controllers\Seller\RegisterProductController@index');
+
+    Route::post('/register-product/{user}', 'App\Http\Controllers\Seller\RegisterProductController@store');
+
 });
 
 Auth::routes();
