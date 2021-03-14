@@ -20,23 +20,23 @@
     <div class="l-multicolumn recommended-products">
         <a href="" class="recommended-product">
 
-            <img src="{{ Storage::url('images/recomended_products/grape.png')}}" alt="grape">
+            <img src="{{ asset('images/recomended_products/grape.png')}}" alt="grape">
             <h3 class="recommended-item">ぶどう 300円</h3>
         </a>
         <a href="" class="recommended-product">
-            <img src="{{ Storage::url('images/recomended_products/peach.png')}}" alt="peach">
+            <img src="{{ asset('images/recomended_products/peach.png')}}" alt="peach">
             <h3 class="recommended-item">もも 400円</h3>
         </a>
         <a href="" class="recommended-product">
-            <img src="{{ Storage::url('images/recomended_products/apple.png')}}" alt="apple">
+            <img src="{{ asset('images/recomended_products/apple.png')}}" alt="apple">
             <h3 class="recommended-item">りんご 100円</h3>
         </a>
         <a href="" class="recommended-product">
-            <img src="{{ Storage::url('images/recomended_products/banana.png')}}" alt="banana">
+            <img src="{{ asset('images/recomended_products/banana.png')}}" alt="banana">
             <h3 class="recommended-item">バナナ 98円</h3>
         </a>
         <a href="" class="recommended-product">
-            <img src="{{ Storage::url('images/recomended_products/orange.png')}}" alt="orange">
+            <img src="{{ asset('images/recomended_products/orange.png')}}" alt="orange">
             <h3 class="recommended-item">みかん 80円</h3>
         </a>
     </div>
